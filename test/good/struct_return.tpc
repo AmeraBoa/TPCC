@@ -1,0 +1,19 @@
+struct foo {
+    int a;
+    int b;
+    int c;
+};
+
+struct foo bar(void) {
+    struct foo f;
+    f.a = 99;
+    f.b = 98;
+    f.c = 97;
+    return f;
+}
+
+void main(void) {
+    struct foo loc;
+    loc = bar();
+    print(loc.a == 99 && loc.b == 98 && loc.c == 97);
+} 

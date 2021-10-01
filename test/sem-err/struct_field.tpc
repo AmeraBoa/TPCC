@@ -1,0 +1,9 @@
+struct airplane {
+    int size;
+};
+
+struct airplane a;
+
+int main(void) {
+    return a.t;
+}

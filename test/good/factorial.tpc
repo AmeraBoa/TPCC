@@ -1,0 +1,15 @@
+int factorial(int n) {
+    if(n <= 2) {
+        return n;
+    }
+    return n * factorial(n - 1); 
+}
+
+void main(void) {
+    int i;
+    i = 0;
+    while(i < 5) {
+        i = i + 1;
+        print(factorial(i));
+    }
+}

@@ -1,0 +1,8 @@
+struct airplane {
+    int size;
+};
+
+int main(void) {
+    struct airplane a;
+    reade(a);
+}

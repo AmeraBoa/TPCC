@@ -1,0 +1,16 @@
+struct bar {
+    int num;
+    int height;
+};
+
+struct bar foo(int c, struct bar a) {
+    return a;
+}
+
+void main(void) {
+    struct bar a;
+    struct bar b;
+    a.num = 19;
+    b = foo(12, a);
+    print(b.num);
+}

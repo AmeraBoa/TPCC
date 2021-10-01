@@ -1,0 +1,35 @@
+struct time {
+    int seconds;
+    int minutes;
+    int hours;
+};
+
+int getSeconds(struct time r, int b, struct time t, int a, int c) {
+    return t.seconds;
+}
+
+void foo(struct time t1, int a, struct time t2, int b, int c) {
+    print(a);
+    print(b);
+    print(c);
+    print(t1.seconds);
+    print(t1.minutes);
+    print(t1.hours);
+    print(t2.seconds);
+    print(t2.minutes);
+    print(t2.hours);
+}
+
+void main(void) {
+    struct time t1;
+    struct time t2;
+
+    t1.seconds = 4;
+    t1.minutes = 5;
+    t1.hours = 6;
+
+    t2.seconds = 7;
+    t2.minutes = 8;
+    t2.hours = 9;
+    foo(t1, 1, t2, 2, 3);
+}

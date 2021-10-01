@@ -1,0 +1,21 @@
+struct t {
+    int size;
+    char type;
+};
+
+int b;
+struct t d;
+
+void main(void) {
+    struct t c;
+
+    int a;
+    readc(d.type);
+    print(d.type);
+    reade(a);
+    print(a);
+    reade(b);
+    print(b);
+    reade(c.size);
+    print(c.size);
+}

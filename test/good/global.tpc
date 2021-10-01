@@ -1,0 +1,11 @@
+int a, b, r1, r2;
+char letter, digit, punct;
+
+void main(void) {
+    a = 12;
+    b = 1;
+    letter = 'a';
+    print(a);
+    print(b);
+    print(letter);
+}

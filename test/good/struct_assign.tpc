@@ -1,0 +1,41 @@
+struct book {
+    int pages;
+    int words;
+};
+
+struct book b3;
+
+void main(void) {
+    struct book b1;
+    struct book b2;
+
+    b2.pages = 350;
+    b2.words = 50000;
+
+    b1 = b2;
+
+    print('a');
+    print(b1.pages);
+    print(b1.words);
+    print(b2.pages);
+    print(b2.words);
+
+    b1.pages = 12;
+    b2 = b1;
+
+    print('b');
+    print(b1.pages);
+    print(b1.words);
+    print(b2.pages);
+    print(b2.words);
+
+    b3 = b1;
+
+    print('b');
+    print(b3.pages);
+    print(b3.words);
+
+    b3.pages = 0;
+    b1 = b3;
+    print(b1.pages);
+}

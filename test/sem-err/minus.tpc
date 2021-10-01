@@ -1,0 +1,8 @@
+struct m {
+    int a;
+};
+
+void main(void) {
+    struct m f;
+    print(-f);
+}

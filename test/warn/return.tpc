@@ -1,0 +1,7 @@
+char foo(void) {
+    return 97;
+}
+
+int main(void) {
+    return 'c';
+}

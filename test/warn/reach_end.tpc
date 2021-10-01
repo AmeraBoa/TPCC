@@ -1,0 +1,22 @@
+struct foo {
+    int a;
+};
+
+int boo(void) {
+    if(1) {
+        return 0;
+    }
+}
+
+struct foo bar(void) {
+    struct foo a;
+    if(1) {
+        return a;
+    } else {
+        return a;
+    }
+}
+
+int main(void) {
+    
+}

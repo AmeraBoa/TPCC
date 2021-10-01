@@ -1,0 +1,13 @@
+struct airplane {
+    int mass;
+    int size;
+};
+
+struct airplane aa;
+
+int main(void) {
+    if(aa < 0) {
+        print('a');
+    }
+    return 0;
+}
