@@ -1,4 +1,4 @@
-Compile from .tpc to .asm. Default name to _anonymous.asm if not specified.
+Compile from .tpc to .asm. Default name to _anonymous.asm if no options specified.
 
 # Requirements
 
