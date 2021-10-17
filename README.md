@@ -13,7 +13,7 @@ Just run:
 
     make
 
-to clear the directory:
+To clear the directory:
 
     make clear
 
