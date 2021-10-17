@@ -6,13 +6,11 @@ Compile from .tpc to .asm. Default name to _anonymous.asm if no options specifie
 - Bison 3.0 or above.
 - flex 2.0 or above.
 
-# Installation
+# Build
 
 Just run:
 
     make
-    
-# Other
 
 to clear the directory:
 
